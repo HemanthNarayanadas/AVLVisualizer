@@ -1,0 +1,35 @@
+:root {
+    --bg-color: #f0f0f0;
+    --text-color: #333;
+    --node-color: skyblue;
+    --line-color: black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.controls {
+    margin: 20px;
+}
+
+#treeCanvas {
+    border: 1px solid #333;
+    background-color: #fff;
+}
+
+body.dark-mode {
+    --bg-color: #1e1e1e;
+    --text-color: #f0f0f0;
+    --node-color: #00bfff;
+    --line-color: #fff;
+}
+
+button {
+    padding: 8px 12px;
+    margin-left: 5px;
+    cursor: pointer;
+}
